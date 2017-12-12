@@ -51,6 +51,8 @@ Journal of Business Economics and Statistics web site : http://amstat.tandfonlin
 ## Gamma Modeling
 
 ![alt text](gamma.png)
+![alt text](prediction_mean_rate.png)
+
 
 ## Workflow
 ![alt text](workflow.png)
