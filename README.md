@@ -50,21 +50,11 @@ Journal of Business Economics and Statistics web site : http://amstat.tandfonlin
 
 ## Gamma Modeling
 
-* Maximum Likelihood Estimation(MLE):
+![alt text](gamma.png)
 
-$$ L(\alpha, \beta) = \sum_{i=1}^{n} \log \big( p_{\alpha, \beta}(x_i) \big) = (\alpha-1) \sum_{i=1}^n \log(x_i) - \frac{1}{\beta} \sum_{i=1}^{n}x_i - n\alpha \log(\beta) - n\log( \Gamma(\alpha) ) $$
-
-$$ ^\text{max}_{\beta,\beta_0} - \dfrac {1} {N} \sum_{i=1}^{N} \dfrac {y_i} {x{^T_i}\beta + \beta_0} + \text{log} \big( x{^T_i}\beta + \beta_0 \big ) - \lambda \Big( \alpha||\beta||_1 + \dfrac {1} {2}(1 - \alpha)||\beta||^2_2 \Big) $$
-
-
+## Workflow
 ![alt text](workflow.png)
+
+## Actual data vs Predictions
 ![alt text](year_comparison.png)
 
-
-## Links
-
-As indicated previously, a link function gg:$$ E(y)=μ=g−1(η)E(y)=μ=g−1(η) $$ relates the expected value of the response μμ to the linear component ηη. The link function can be any monotonic differentiable function. This relaxes the constraints on the additivity of the covariates, and it allows the response to belong to a restricted range of values depending on the chosen transformation gg.
-
-H2O’s GLM supports the following link functions: Family_Default, Identity, Logit, Log, Inverse, and Tweedie.
-
-The following table describes the allowed Family/Link combinations.
