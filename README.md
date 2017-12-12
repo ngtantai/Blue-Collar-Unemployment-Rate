@@ -1,4 +1,4 @@
-# Unemployment of Blue Collar Workers Modeling
+# Unemployment  rate of Blue Collar Workers Modeling
 
 ## Description
 
